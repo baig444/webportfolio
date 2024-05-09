@@ -1,0 +1,85 @@
+.contactPage{
+    min-height: calc(100vh - 5rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact-title{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.clientDesc{
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 50rem;
+    color: rgb(146, 138, 138);
+}
+.clientImg{
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.client-pic{
+    object-fit: cover;
+    width: 23%;
+    min-width: 9rem;
+    margin: auto;
+    padding: 0.25rem;
+}
+#clients{
+    padding: 2rem 0;
+}
+.top-text{
+    margin-top: 5rem;
+}
+
+.bottom-desc{
+    font-size: medium;
+    font-weight: 300;
+    color: rgb(146, 138, 138);
+}
+.contactForm{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+.contactInput{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border:none;
+    border-radius: 0.5rem;
+    background: rgb(40, 40, 40);
+}
+.contactBtn{
+    margin-top: 1.2rem;
+    background: white;
+    border: none;
+    padding:0.60rem 3rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+}
+.link{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 1.5rem 0.75rem;
+}
